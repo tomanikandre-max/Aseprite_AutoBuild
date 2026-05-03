@@ -422,7 +422,7 @@ int main() {
                     disparado = true;
                     std::thread([&prontoParaProximo, p]() {
                         char cmd[4096];
-                        std::string final = "call \"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat\" -arch=x64 && cd \"" + p + "\\aseprite\" && mkdir build && cd build && \"" + p + "\\Cmake\\bin\\cmake.exe\" -DCMAKE_BUILD_TYPE=RelWithDebInfo -G Ninja -DLAF_BACKEND=skia -DSKIA_DIR=\"" + p + "\"\\skia -DSKIA_LIBRARY_DIR=\"" + p + "\"\\skia\\out\\Release-x64 -DSKIA_LIBRARY=\"" + p + "\"\\skia\\out\\Release-x64\\skia.lib .. && \"" + p + "\"\\ninja\\ninja.exe aseprite 2>&1";
+                        std::string final = "call \"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat\" -arch=x64 && cd /d \"" + p + "\\aseprite\" && mkdir build && cd build && \"" + p + "\\Cmake\\bin\\cmake.exe\" -DCMAKE_BUILD_TYPE=RelWithDebInfo -G Ninja -DLAF_BACKEND=skia -DSKIA_DIR=\"" + p + "\"\\skia -DSKIA_LIBRARY_DIR=\"" + p + "\"\\skia\\out\\Release-x64 -DSKIA_LIBRARY=\"" + p + "\"\\skia\\out\\Release-x64\\skia.lib .. && \"" + p + "\"\\ninja\\ninja.exe aseprite 2>&1";
                         ExecutarComLog(final);
                         prontoParaProximo = true;
                         }).detach();
