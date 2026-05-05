@@ -4,7 +4,7 @@ Se você não estiver confiando no release pronto, estas instruções mostram de
 * Baixe [Visual Studio Community](https://aka.ms/vs/17/release/vs_community.exe)
 * Baixe [Raylib para MSVC](https://github.com/raysan5/raylib/releases/download/6.0/raylib-6.0_win64_msvc16.zip)
 * Baixe o [Raygui.h](https://github.com/raysan5/raygui/archive/refs/tags/4.0.zip)
-# Configurações Visual Studio
+# Configurações do Visual Studio
 * Coloque o Raygui na pasta em que está o AsepriteAutoBuild.cpp
 * No Visual Studio ja com um novo projeto vazio importe o AsepriteAutoBuild.cpp em "Arquivos de origem"
 * Isso é o opicional, mas mude o projeto de Debug para Relase para melhor qualidade, e certifique-se que esteja em x64
