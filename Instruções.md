@@ -10,6 +10,7 @@ Se você não estiver confiando no release pronto, estas instruções mostram de
 * Isso é o opicional, mas mude o projeto de Debug para Relase para melhor qualidade, e certifique-se que esteja em x64
 * Vá em projeto > Propriedades > Vinculador > Arquivos de manifesto > Nível de execução UAC e coloque: **requireAdministrator(/level='requireAdministrator')**
 * Ainda em Vinculador vá em Systema > SubSystem e coloque: **Windows (/SUBSYSTEM:WINDOWS)**
+* Como vamos usar a função **main** ainda em Vinculador vá em Avançado > Ponto de Entrada, e insira **mainCRTStartup**
 * Vá em projeto > Propriedades > Vinculador, e em Dependências adicionais apague tudo e coloque: **raylib.lib;winmm.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)**
 * Vá em projeto > Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais, e passe o caminho da pasta Include do Raylib
 * Vá nas propriedades do projeto > Vinculador (Linker) > Geral > Diretórios de Biblioteca Adicionais, passe o caminho da pasta Lib do Raylib
