@@ -1,6 +1,8 @@
-Baixe Visual Studio Community no link https://aka.ms/vs/17/release/vs_community.exe
-Baixe Raylib para MSVC no link https://github.com/raysan5/raylib/releases/download/6.0/raylib-6.0_win64_msvc16.zip
-Baixe o Raygui.h no link https://github.com/raysan5/raygui/archive/refs/tags/4.0.zip
+# Ferramentas nessessárias
+Baixe [Visual Studio Community](https://aka.ms/vs/17/release/vs_community.exe)
+Baixe [Raylib para MSVC](https://github.com/raysan5/raylib/releases/download/6.0/raylib-6.0_win64_msvc16.zip)
+Baixe o [Raygui.h](https://github.com/raysan5/raygui/archive/refs/tags/4.0.zip)
+# Configurações Visual Studio
 Coloque o Raygui na pasta em que está o AsepriteAutoBuild.cpp
 No Visual Studio ja com um novo projeto importe o AsepriteAutoBuild.cpp em "Arquivos de origem"
 Isso é o opicional, mas mude o projeto de Debug para Relase para melhor qualidade, e certifique-se que esteja em x64
@@ -10,4 +12,5 @@ raylib.lib;winmm.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)
 Vá em projeto > Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais, e passe o caminho da pasta Include do Raylib
 Vá nas propriedades do projeto > Vinculador (Linker) > Geral > Diretórios de Biblioteca Adicionais, passe o caminho da pasta Lib do Raylib
 Vá em Arquivos de recurso > Adicionar > Recurso > Importar, e importe o arquivo .ico da pasta icon extraida para a pasta em que o programa está rodando
+# Por fim executar
 Compile o programa, vá na \pasta do progeto\x64\Release(ou Degub)\e cole a pasta icon e Roboto extraidas, por fim, execute o programa normalmente
