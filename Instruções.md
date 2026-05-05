@@ -1,4 +1,4 @@
-# Para que serve estas instruções?
+# Para que servem estas instruções?
 Se você não estiver confiando no release pronto, estas instruções mostram detalhadamente como compilar o automatizador da compilação do Aseprite direto na sua maquina.
 # Ferramentas nessessárias
 * Baixe [Visual Studio Community](https://aka.ms/vs/17/release/vs_community.exe)
