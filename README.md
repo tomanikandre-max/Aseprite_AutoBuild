@@ -14,7 +14,7 @@ Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente c
 *   Conexão com a internet.
 
 ### 🚀 Como usar:
-1. Vá na aba **Releases** aqui no GitHub e baixe o arquivo `AsepriteAutoBuild.exe` ou baixe o código fonte e use o compilador que prefere para compilar, de preferência Visual Studio Community.
+1. Vá na aba **Releases** aqui no GitHub e baixe o arquivo `AsepriteAutoBuild.exe` ou baixe o código fonte e use o compilador que prefere para compilar, de preferência Visual Studio Community, caso tenha dificuldades para compilar consulte https://github.com/tomanikandre-max/AsepriteAutoBuild/blob/main/Instru%C3%A7%C3%B5es.txt.
 2. Execute o Arquivo.
 3. Selecione a linguagem e o local onde instalar, e clique em instalar.
 
