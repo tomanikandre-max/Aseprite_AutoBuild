@@ -1,3 +1,5 @@
+# Para que serve estas instruções?
+Se você não estiver confiando no release pronto, estas instruções mostram detalhadamente como compilar o automatizador da compilação do Aseprite direto na sua maquina.
 # Ferramentas nessessárias
 * Baixe [Visual Studio Community](https://aka.ms/vs/17/release/vs_community.exe)
 * Baixe [Raylib para MSVC](https://github.com/raysan5/raylib/releases/download/6.0/raylib-6.0_win64_msvc16.zip)
