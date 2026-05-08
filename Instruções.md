@@ -16,4 +16,4 @@ Se você não estiver confiando no release pronto, estas instruções mostram de
 * Vá nas propriedades do projeto > Vinculador (Linker) > Geral > Diretórios de Biblioteca Adicionais, passe o caminho da pasta Lib do Raylib
 * Vá em Arquivos de recurso > Adicionar > Recurso > Importar, e importe o arquivo .ico da pasta icon extraida para a pasta em que o programa está rodando
 # Por fim executar
-Compile o programa, vá na \pasta do progeto\x64\Release(ou Degub)\e cole a pasta icon e Roboto extraidas, por fim, execute o programa normalmente
+Compile o programa, vá na \pasta do projeto\x64\Release(ou Degub)\e cole a pasta icon e Roboto extraidas, por fim, execute o programa normalmente
