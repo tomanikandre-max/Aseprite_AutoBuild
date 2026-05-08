@@ -5,14 +5,14 @@ Este é um automatizado feito em **C++ e Raylib** para facilitar a construção 
 # Créditos
 Eu obviamente preciso credibilizar os desenvolvedores do [Aseprite](https://aseprite.com/), sem Aseprite, sem AsepriteAutoBuild, e caso você queira apoiar os desenvolvedores, considere comprar o Aseprite.
 
-### 💡 O que este projeto faz?
+# 💡 O que este projeto faz?
 Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente com a biblioteca **Skia**. Este script resolve isso:
 
 *   Baixa automaticamente a versão correta do **Skia (M124)** pré-compilada.
 *   Configura o **Ninja** e o **CMake** sem que você precise mexer em variáveis de ambiente.
 *   Clona a versão mais recente **v1.3.16** e realiza o build completo.
 
-### 🛠️ Requisitos
+# 🛠️ Requisitos
 *   **Windows 10 ou 11 x64**.
 *   Conexão com a internet.
 #  🚀 Como usar:
@@ -21,7 +21,7 @@ Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente c
 3. Selecione a linguagem e o local onde instalar, e clique em instalar.
 
 
-### 📂 Onde encontro o programa pronto?
+# 📂 Onde encontro o programa pronto?
 Após o término da compilação, o executável estará em:
 `pasta_escolhida\aseprite\build\bin\aseprite.exe`
 
