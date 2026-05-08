@@ -3,7 +3,7 @@
 Este é um automatizado feito em **C++ e Raylib** para facilitar a construção oficial do Aseprite no Windows. Ele configura todas as dependências complexas (Skia e Ninja) de forma "blindada".
 
 # Créditos
-Eu obviamente preciso credibilizar os desenvolvedores do [Aseprite](https://aseprite.com/), sem Aseprite, sem AsepriteAutoBuild, e caso você queira apoiar os desenvolvedores, concidere comprar o Aseprite.
+Eu obviamente preciso credibilizar os desenvolvedores do [Aseprite](https://aseprite.com/), sem Aseprite, sem AsepriteAutoBuild, e caso você queira apoiar os desenvolvedores, considere comprar o Aseprite.
 
 ### 💡 O que este projeto faz?
 Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente com a biblioteca **Skia**. Este script resolve isso:
