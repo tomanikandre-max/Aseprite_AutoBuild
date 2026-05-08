@@ -2,6 +2,9 @@
 
 Este é um automatizado feito em **C++ e Raylib** para facilitar a construção oficial do Aseprite no Windows. Ele configura todas as dependências complexas (Skia e Ninja) de forma "blindada".
 
+# Créditos
+Eu obviamente preciso credibilizar os desenvolvedores do [Aseprite](https://aseprite.com/), sem Aseprite, sem AsepriteAutoBuild, e caso você queira apoiar os desenvolvedores concidere comprar o Aseprite.
+
 ### 💡 O que este projeto faz?
 Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente com a biblioteca **Skia**. Este script resolve isso:
 
@@ -12,8 +15,7 @@ Compilar o Aseprite manualmente é famoso por dar muitos erros, principalmente c
 ### 🛠️ Requisitos
 *   **Windows 10 ou 11 x64**.
 *   Conexão com a internet.
-
-### 🚀 Como usar:
+#  🚀 Como usar:
 1. Vá na aba **Releases** aqui no GitHub e baixe o arquivo [AsepriteAutoBuild.exe](https://github.com/tomanikandre-max/AsepriteAutoBuild/releases/download/1.0.2/AsepriteAutoBuild.exe) ou [baixe o código fonte](https://github.com/tomanikandre-max/AsepriteAutoBuild/archive/refs/heads/main.zip) e use o compilador que prefere para compilar, de preferência [Visual Studio Community](https://aka.ms/vs/17/release/vs_community.exe), caso tenha dificuldades para compilar consulte [instruções.md](https://github.com/tomanikandre-max/AsepriteAutoBuild/blob/main/Instru%C3%A7%C3%B5es.md), ou se você não souber usar consulte [Utilização.md](https://github.com/tomanikandre-max/AsepriteAutoBuild/blob/main/Utiliza%C3%A7%C3%A3o.md).
 2. Execute o Arquivo.
 3. Selecione a linguagem e o local onde instalar, e clique em instalar.
