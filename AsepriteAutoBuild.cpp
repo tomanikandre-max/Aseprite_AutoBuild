@@ -404,6 +404,7 @@ int main() {
                     passo = 8;
                     progresso = 0.0f;
                     disparado = false;
+                    prontoParaProximo=false;
                 }
                 if (instalando7 && !prontoParaProximo) {
                     char path7[300] = " ";
