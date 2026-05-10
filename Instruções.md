@@ -12,6 +12,7 @@ Se você não estiver confiando no release pronto, estas instruções mostram de
 * Ainda em Vinculador vá em Systema > SubSystem e coloque: **Windows (/SUBSYSTEM:WINDOWS)**
 * Como vamos usar a função **main** ainda em Vinculador vá em Avançado > Ponto de Entrada, e insira **mainCRTStartup**
 * Vá em projeto > Propriedades > Vinculador, e em Dependências adicionais apague tudo e coloque: **raylib.lib;winmm.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)**
+* Vá em projeto > Propriedades > C/C++ > Linguagem e certifiquece que em **Padrão da linguagem C++** esteja em **Padrão ISO C++17 (/std:c++17)**
 * Vá em projeto > Propriedades > C/C++ > Geral > Diretórios de Inclusão Adicionais, e passe o caminho da pasta Include do Raylib
 * Vá nas propriedades do projeto > Vinculador (Linker) > Geral > Diretórios de Biblioteca Adicionais, passe o caminho da pasta Lib do Raylib
 * Vá em Arquivos de recurso > Adicionar > Recurso > Importar, e importe o arquivo .ico da pasta icon extraida para a pasta em que o programa está rodando
