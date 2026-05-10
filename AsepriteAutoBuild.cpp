@@ -437,7 +437,7 @@ int main() {
                     char path7[300] = " ";
                     sprintf(path7, "%s\\aseprite\\build\\bin\\aseprite.exe", pasta);
                     if (progresso < 1.0) {
-                        progresso += 0.005f;
+                        progresso += 0.0001f;
                     }
                     if (progresso < 1.0 && FileExists(path7) && prontoParaProximo) progresso = 1.0;
                     if (progresso > 0.95 && !FileExists(path7) || progresso > 0.95 && !prontoParaProximo) progresso = 0.95;
