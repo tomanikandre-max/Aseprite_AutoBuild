@@ -1,9 +1,6 @@
 # Aseprite Auto-Compilador (C++)
 Este é um automatizado feito em **C++ e Raylib** para facilitar a construção oficial do Aseprite no Windows. Ele configura todas as dependências complexas (Skia e Ninja) de forma "blindada".
 
-# Atenção
-Provavelmente algumas pessoas vão ficar aflitas ao ver o comando de adicionar a pasta do programa às exclusões do Windows Defender, isso pode de fato ser usado como uma ofuscação de código, mas ele faz isso, simplesmente porque o comportamento de baixar arquivos da internet, (Visual Studio, CMake, Skia, etc) e modificar arquivos da pasta, nessessario para o automatizador cumprir seu papel, são invasoras, e isso ja dispara um alerta do antivirus, isso é chamado de falso positivo.
-
 # Créditos
 Eu obviamente preciso credibilizar os desenvolvedores do [Aseprite](https://aseprite.com/), sem Aseprite, sem AsepriteAutoBuild, e caso você queira apoiar os desenvolvedores, considere comprar o Aseprite.
 
