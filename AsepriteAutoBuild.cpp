@@ -68,9 +68,6 @@ int main() {
     Vector2 posicaoTexto2 = { 310, 20 };
     Vector2 posicaoTexto55 = { 320, 350 };
     _getcwd(path, sizeof(path));
-    while (path[i] != '\0') {
-        i++;
-    }
     Rectangle botao3 = { 320, 350, 150, 70 };
     bool mouseEmCima3 = false;
     InitWindow(x, y, "Instalador Aseprite");
@@ -116,9 +113,6 @@ int main() {
             GuiLabel({ 30, 170, 400, 30 }, "instalador do Aseprite");
             GuiLabel({ 30, 230, 300, 30 }, "Selecione sua lingua:");
             GuiLabel({ 30, 320, 400, 30 }, "Select your language:");
-
-            GuiButton({ 370 , 350, 190, 70 }, "English");
-
 
             if (GuiButton({ 370, 30, 190, 70 }, "Portugues")) {
                 lingua2 = 'p';
@@ -263,7 +257,7 @@ void Thread(char lingua)
             ExecutarComLog(cmdBaixar);
             std::string cmdInstalar = "\"" + p + "\\vs.exe\" --passive --norestart --wait "
                 "--add Microsoft.VisualStudio.Workload.NativeDesktop "
-                "--add Microsoft.VisualStudio.Component.Windows11SDK.22621"
+                "--add Microsoft.VisualStudio.Component.Windows11SDK.22621 "
                 "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 "
                 "--add Microsoft.VisualStudio.Component.Windows10SDK.18362 "
                 "--add Microsoft.VisualStudio.Component.VC.CMake.Project 2>&1";
