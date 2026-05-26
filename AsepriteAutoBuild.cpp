@@ -47,7 +47,6 @@ int pagina = 0;
 void ExecutarComLog(std::string comando);
 void Thread(char lingua);
 int main() {
-    bool prontoParaProximo = false;
     int contagemLetras = 11;
     int comandoEnviado = 2;
     char lingua2 = ' ';
